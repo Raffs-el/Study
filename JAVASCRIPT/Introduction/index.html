@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Introduction</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Javascript Introduction</h1>
+
+    <h2>Changing the HTML Content</h2>
+
+    <p id="before">Before</p>
+    <button type="button" onclick='document.getElementById("before").innerHTML="After"'>Click me!</button>
+
+    <h2>Changing the HTML Atribute Values</h2>
+
+    <div class="light">
+        <img id="red" src="img/Red.svg">
+        <div class="buttons">
+            <button type="button" onclick="document.getElementById('red').src='img/Red.svg'">Red</button>
+            <button type="button" onclick="document.getElementById('red').src='img/Yellow.svg'">Yellow</button>            
+            <button type="button" onclick="document.getElementById('red').src='img/Green.svg'">Green</button>
+            </div>
+    </div>
+
+    <h2>Changing the HTML Styles (CSS)</h2>
+
+    <div id="retangle"></div><br>
+    <button type="button" onclick="document.getElementById('retangle').style.borderRadius='100%'">Click me!</button>
+
+
+    <h2>Hiding HTML Elements</h2>
+
+    <p id="hide">How can I hide this text?</p>
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click me!</button>
+
+    <h2>Showing HTML Elements</h2>
+
+    <p id="hidden">Hi there!</p>
+    <button type="button" onclick="document.getElementById('hidden').style.display='block'">Click me!</button>
+</body>
+</html>
