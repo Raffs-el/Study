@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Funções</h1>
+    <p> Uma função em JavaSript serve para realizar uma determinada tarefa e, para isso, nós precisamos "invocá-la" (chamá-la).</p>
+
+    <h2>Sintaxe da Função</h2>
+    <p>Uma função em JavaScript é definida com a palavra chave <em>function</em>, seguinda por um <b>nome</b> ao lado de um parênteses <b>( )</b>.</p>
+    <p>Os nomes da função podem conter letras, dígitos, palavras sublinhadas e símbolos monetários.</p>
+    <p>Os parênetes devem incluir nomes de parâmetros separados por vírgulas: <b>(parâmetro1, parâmetro2, ...)</b></p>
+    <p>O código a ser executado, pela função, é colocado dentro de chaves: <b>{ }</b></p>
+    <p>Os <b>parâmetros</b> de uma função são listado dentro dos parênteses ( ) na definição da função.</p>
+    <p>Os <b>argumentos</b> das funções são os <b>valores</b> recebidos pela função quando ela é invocada.</p>
+    <p>Dentro da função, os argumentos (parâmetros) comportam-se como variáveis locais.</p>
+
+    <h2>Invocação da Função</h2>
+    <p>O código dentro da função será executado quando "algo" <b>invocar</b>(chamar) a funçao:</p>
+    <ul>
+        <li>Quando um evento ocorre (quando um usuário clica em um botão);</li>
+        <li>Quando ela é invocada (chamada) de um código JavaScript;</li>
+        <li>Automaticamente (invocada por ela mesma).</li>
+    </ul>
+
+    <h2>Função Return (Retornar)</h2>
+    <p>Quando o JavaScript alcança uma declaração <em>return</em>, a função irá parar de ser executada.</p>
+    <p>Se a função foi invocada de uma declaração, o JavaScript vai "return" (retornar) a execução do código depois da declaração de chamada.</p>
+    <p>Funções geralmente computam um <b>return value (valor de retorno)</b>. O valor de retorno é "retornado" de volta ao "chamador".</p>
+    <h3>Exemplo:</h3>
+    <p>Este exemplo chama uma função que realiza cálculos e retorna o resultado:</p>
+    <p id="calc"></p>
+
+    <h2>Por que funções?</h2>
+    <p>Você pode reutilizar o código: defina o código uma vez e e use-o muitas vezes.</p>
+    <p>Você pode usar o mesmo código muitas vezes com diferentes argumentos poara produzir diferentes resultados.</p>
+    <h3>Exemplo - Conversor de Fahrenheit para Celsius:</h3>
+    <p id="conversor"></p>
+
+    <h2>O Operador ( ) Invoca a Função</h2>
+    <p>Utilizando o exemplo acima, toCelsius refere-se ao objeto da função, e toCelsius() refere-se ao resultado da função.</p>
+    <p>Acessando uma função sem ( ), será retornado o objeto da função invés do resultado dessa função.</p>
+    <h3>Exemplo:</h3>
+    <p id="example3"></p>
+
+    <h2>Funções Usadas como Valores Variáveis</h2>
+    <p>Funções podem ser usadas da mesma maneira que você usa variáveis, em todos os tipos de fórmulas, atribuições e cálculos.</p>
+    <h3>Exemplo:</h3>
+    <p id="example4"></p>
+
+    <h2>Variáveis Locais</h2>
+    <p>Variáveis declaradas dentro uma função JavaSript se tornam <strong>restritas</strong> àquela função.</p>
+    <p>Variáveis locais podem ser acessadas somente de dentro da função.</p>
+    <h3>Exemplo:</h3>
+    <p>Fora de myFunction() carName é indefinido (undefined).</p>
+    <p id="example5"></p>
+    <p id="example5.1"></p>
+    <p>Como as variáveis locais são reconhecidas somente dentro de suas funções, variáveis com o mesmo nome podem ser utilizadas em diferentes funções.</p>
+    <p>Variáveis locais são criadas quando uma função começa, e são deletadas quando a função é finalizada.</p>
+
+</body>
+
+</html>
