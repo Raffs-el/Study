@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Eventos</h1>
+    <p>Os eventos HTML são <b>"coisas"</b> que ocorrem em elementos HTML.</p>
+    <p>Quando utilizado em páginas HTML, o JavaScript pode <b>"reagir"</b> a esses eventos.</p>
+
+    <h2>Eventos HTML</h2>
+    <p>Um evento HTML pode ser algo que o navegador faz, ou alguma coisa que um usuário faz.</p>
+    <p>Exemplos de eventos HTML:
+        <ul>
+            <li>Uma página que acabou de ser carregada</li>
+            <li>Um campo de input que mudou</li>
+            <li>Um botão que foi clicado</li>
+        </ul>
+    </p>
+    <p>Geralmente, um evento acontece quando você quer fazer alguma coisa.</p>
+    <p>O JavaScript te permite executar o código quando o evento é detectado.</p>
+    <p>O HTML permite colocar atributos de eventos, <b>com um código javascript</b>, a ser adicionado aos elementos HTML.</p>
+    <h3>Exemplo: botão clicável que mostra o horário</h3>
+    <button onclick="this.innerHTML=Date()">Que horas são?</button>
+    <p>Um código JavaScript geralmente possui muitas linhas. É mais comum ver eventos chamando funções:</p>
+    <p>Clique no botão abaixo para mostrar a data atual</p>
+    <button onclick="displayDate()">Mostrar data</button>
+    <p id=exemplo1></p>
+
+    <h2>Lista de alguns eventos HTML</h2>
+    <p>onchange = um evento HTML será modificado</p>
+    <p>onclick = o usuário clica em um elemento HTML</p>
+    <p>onmouseover = o usuário move o mouse em cima de um elemento HTML</p>
+    <p>onmouseout = o usuário move o mouse para fora de um elemento HTML</p>
+    <p>onkeydown = o usuário aperta uma tecla do teclado</p>
+    <p>onload = quando o browser termina de carregar a página</p>
+
+    <h2></h2>
+
+</body>
+
+</html>
